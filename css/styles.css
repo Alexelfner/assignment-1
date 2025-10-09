@@ -1,0 +1,150 @@
+*{ 
+    box-sizing: border-box;
+}
+body{
+    font-family: "Dosis", sans-serif;
+    color: white;
+    background-image: url(../Images-of-Whaler/ripples-maine-blue-gold_gxh3e5.jpg);
+    background-size: cover;
+    font-size: 1.5rem;
+}
+h1, h2, h3, h5, h6{
+    font-family: 'Fjalla One', sans-serif;
+    color: brown;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-bottom: dotted 3px brown;
+    font-style: italic;
+    text-transform: uppercase;
+}
+h1 span{
+    font-size: 4rem;
+    display: block;
+
+}
+#background{
+    background-color: transparent;
+    color: white;
+    padding: 15px;
+    margin: auto;
+    background-image: url(../Images-of-Whaler/boston-whaler-330-vantage-boat-example-1.jpg);
+    border: 10px solid Black;
+    background-image: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper{
+    background-color: black;
+    background: black;
+    background: radial-gradient(circle, rgba(DEA9BE,1) 0%, rgba(000000,1) 100%);
+    margin: auto;
+    padding: 1 rem;
+}
+nav ul li{ 
+    list-style: none;
+    display: inline-block;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2rem;
+    padding:1rem 2rem;
+    color: white;
+}
+nav ul{
+    background-color: brown;
+    text-align: right;
+    position: fixed;
+    top: 0px ;
+    right: 0px;
+}
+nav ul a {
+    color: white;
+}
+nav ul a:hover{
+    color: black;
+    text-decoration: underline;
+}
+h2 b a{
+    color: white;
+    text-decoration: underline;
+}
+header{
+    padding: 6rem 4rem 4rem 4rem;
+}
+main{
+    width: 86%;
+    margin: 0 auto;
+    background-color: black;
+    padding: 2rem;
+}
+figure{
+   width: 300px;
+   padding: 1 rem 1 rem 1.5 rem 1 rem;
+   display: inline-block;
+   vertical-align: middle;
+   background-color: white;
+   border: 10px solid brown;
+}
+figure img{
+    width: 100%;
+    height: 100%;
+}
+figure:first-of-type{
+    transform:rotate(15deg);
+}
+figure:nth-of-type(2){
+    transform:rotate(-10deg);
+}
+figure:nth-of-type(3){
+    transform:rotate(10deg);
+}
+figcaption{
+    font-family: fantasy;
+    color: brown;
+}
+
+footer{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+#needed, #parts{
+    font-size: 1.2 rem;
+    display: inline-block;
+    background-color: brown;
+    width: 49.78%;
+    color: white;
+    border-radius: 10px;
+    
+}
+#needed, h2{
+    text-align: center;
+    color: white;
+    vertical-align: top;
+}
+#video{
+    display: block;
+    margin: auto;
+    border: 10px solid brown;
+    width: auto;
+    height: auto;
+}
+.box {
+  border-radius: 10px;
+}
+
+.box:hover {
+  animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-delay: 2s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
